@@ -1,7 +1,17 @@
+.bgImg {
+  background-image: url("../../assets/images/giveIndia_login_bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  padding: 70px 0;
+}
+
 .Container {
   max-width: 1440px;
   width: 100%;
   margin: auto;
+  margin-top: 40px;
 }
 
 .CardHeader {
@@ -26,5 +36,6 @@
   font-size: 14px;
   margin: 0;
   color: rgba(0, 0, 0, 0.66);
-  text-align: right;
+  text-align: center;
+  margin-top: 1.5rem;
 }

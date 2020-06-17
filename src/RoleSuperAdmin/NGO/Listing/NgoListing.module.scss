@@ -1,0 +1,385 @@
+.sectionHead {
+    margin: 0;
+}
+
+.sectionSubHead {
+    margin-top: 0;
+}
+
+.smallText {
+    margin: 0;
+    color: rgb(68, 68, 68);
+    font-size: 14px;
+}
+
+.SearchIp {
+    position: relative;
+    input {
+        border: 1px solid rgb(206, 212, 218);
+        border-radius: 3px;
+        height: 34px;
+        width: 100%;
+        font-size: 13px;
+        color: rgb(145, 145, 145);
+        padding: 0 5px;
+    }
+    i {
+        position: absolute;
+        right: 4px;
+        top: 11px;
+        color: rgb(153, 153, 153);
+    }
+}
+/*Dialogue*/
+.dialogTitle {
+    margin: 0;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-size: 700;
+}
+.dialogContent {
+    margin-top: 0;
+    color: rgb(68, 68, 68);
+    font-size: 15px;
+    font-size: 400;
+}
+.dialogSubtext {
+    margin-top: 0;
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+}
+label {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    font-size: 400;
+}
+.input {
+    border: 1px solid rgb(206, 212, 218);
+    height: 48px;
+    border-radius: 5px;
+    width: 100%;
+    background-color: #fff;
+}
+.formGroup {
+    margin-bottom: 16px;
+}
+.dialogFormLG {
+    min-width: 515px;
+    width: 100%;
+}
+.DialogClose {
+    height: 32px;
+    width: 32px;
+    display: inline-block;
+    background-color: rgb(218, 218, 218);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 31px;
+    font-size: 16px;
+    color: #000;
+    float: right;
+    cursor: pointer;
+}
+
+.editImg {
+    max-width: 70px;
+    margin: 20px auto;
+
+    img {
+        width: 100%;
+        height: 70px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+.dialogCheckboxlist {
+    margin: 0;
+    margin-top: 8px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    li {
+        margin-right: 15px;
+        font-size: 15px;
+        color: #444;
+        input {
+            margin-right: 5px;
+        }
+    }
+}
+
+.uploadTable {
+    background-color: rgb(248, 249, 250);
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 5px;
+    display: table;
+    width: 100%;
+    min-height: 173px;
+    margin-bottom: 30px;
+}
+
+.uploadCell {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    h4 {
+        color: rgb(68, 68, 68);
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0;
+    }
+    p {
+        color: rgb(153, 153, 153);
+        font-size: 15px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+    i {
+        font-size: 24px;
+        margin-bottom: 14px;
+    }
+}
+
+/*ReletionShip Manager*/
+.CommonSpace {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(239, 239, 239);
+}
+.bannerImg {
+    width: 190px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.BannerLable {
+    color: rgb(153, 153, 153);
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.BannerLableSm {
+    color: rgb(153, 153, 153);
+    margin: 0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.BannerName {
+    color: rgb(68, 68, 68);
+    font-size: 28px;
+    font-weight: 400;
+}
+.Margin0 {
+    margin: 0;
+}
+
+.BannerDetail {
+    color: rgb(68, 68, 68);
+    font-size: 14px;
+    font-weight: 400;
+    span {
+        color: rgb(0, 140, 140);
+        cursor: pointer;
+    }
+}
+
+.ngoIcon {
+    max-width: 60px;
+    display: block;
+    margin: 0 auto;
+}
+
+.bannerImage {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    object-position: center;
+    transform: scaleX(1.07);
+    position: relative;
+    top: -40px;
+}
+
+.BannerListInline {
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    margin-bottom: 36px;
+    li {
+        color: rgb(255, 80, 80);
+        font-size: 14px;
+        font-weight: 400;
+        margin-right: 20px;
+        img {
+            max-width: 100px;
+        }
+        i {
+            margin-right: 8px;
+            font-size: 12px;
+        }
+    }
+}
+
+.TextRight {
+    text-align: right;
+}
+
+.bannerLinks {
+    color: rgb(0, 140, 140);
+    font-size: 15px;
+    font-weight: 400;
+}
+.Hr {
+    border: 1px solid rgb(239, 239, 239);
+}
+.bannerSubhead {
+    padding: 12px 0;
+    h4 {
+        color: rgb(68, 68, 68);
+        font-size: 22px;
+        margin: 0;
+    }
+    p {
+        font-size: 14px;
+        color: rgb(68, 68, 68);
+        margin: 0;
+    }
+}
+.bannerSubheadTitle {
+    color: rgb(68, 68, 68);
+    font-size: 22px;
+    margin: 0;
+}
+.Padding0 {
+    padding: 0 !important;
+}
+.NgoCard {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 5px 0px;
+    overflow: hidden;
+    margin: 30px 0;
+    .NgoCardImage {
+        height: 176px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .NgoCardBody {
+        padding: 12px;
+    }
+    .NgoCardHead {
+        display: flex;
+        justify-content: space-between;
+        span {
+            font-size: 14px;
+            color: rgb(255, 80, 80);
+        }
+        margin-bottom: 20px;
+    }
+    .NgoCardContent {
+        h4 {
+            color: rgb(68, 68, 68);
+            margin: 0;
+            font-size: 18px;
+            font-weight: 600;
+        }
+        p {
+            margin: 0;
+            color: rgb(153, 153, 153);
+            font-size: 14px;
+        }
+    }
+}
+
+.programBannerImage {
+    width: 100%;
+    height: 224px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.DivisionHead {
+    padding: 25px 0 0 0;
+    border-bottom: 1px solid rgb(239, 239, 239);
+    margin-bottom: 25px;
+    h4 {
+        color: rgb(68, 68, 68);
+        font-size: 17px;
+        font-weight: 600;
+        margin: 0;
+        display: inline-block;
+        border-bottom: 4px solid rgb(68, 68, 68);
+        padding-bottom: 15px;
+    }
+}
+.beneficiarySingleImg {
+    height: 190px;
+    width: 190px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.beneficiaryReportImg {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.beneficiaryReportContainer {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.beneficiaryReportHead {
+    padding: 40px 0 20px 0;
+    p {
+        margin: 0;
+    }
+}
+
+.beneficiaryReportBox {
+    border: 1px solid rgb(239, 239, 239);
+    padding: 20px 60px;
+    img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto 25px;
+    }
+    h4 {
+        color: rgb(68, 68, 68);
+        font-size: 18px;
+        margin-top: 0;
+        font-weight: 700;
+    }
+    p {
+        color: rgb(68, 68, 68);
+        font-size: 14px;
+        margin-top: 0;
+        font-weight: 400;
+    }
+}
+
+.binaryDialogue {
+    text-align: center;
+    h3 {
+        font-size: 25px;
+        font-weight: 700;
+        color: #000;
+    }
+    i {
+        color: rgb(255, 80, 80);
+        font-size: 30px;
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 14px;
+        span {
+            color: rgb(255, 80, 80);
+        }
+    }
+}

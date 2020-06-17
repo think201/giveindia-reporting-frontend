@@ -1,5 +1,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400&display=swap");
 
+/*Removing Dialog default height*/
+
+.MuiDrawer-paperAnchorDockedLeft {
+  position: relative !important;
+  top: -64px !important;
+}
+/*Removing toolbar default height*/
+/* .makeStyles-toolbar-5 {
+  min-height: 0 !important;
+} */
+
+.MuiTabs-indicator {
+  background-color: rgb(255, 80, 80) !important;
+}
+.parent-container {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
+}
 h1,
 h2,
 h3,
@@ -14,6 +33,7 @@ div,
 small,
 p {
   font-family: "Nunito Sans", Arial;
+  margin-top: 0;
 }
 
 a {
@@ -23,4 +43,71 @@ a {
 a:hover {
   color: inherit;
   text-decoration: none;
+}
+
+h2 {
+  font-size: 32px;
+  color: rgb(68, 68, 68);
+  font-weight: 700;
+  margin-top: 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(153, 153, 153);
+}
+
+.active {
+  color: rgb(255, 80, 80);
+}
+
+.active .MuiSvgIcon-root {
+  color: rgb(255, 80, 80);
+}
+
+.buttonTabs button {
+  line-height: unset;
+  padding: 0;
+  height: 38px;
+  min-height: unset;
+  min-width: 123px;
+  background-color: #fff;
+  border: 1px solid rgb(230, 230, 230);
+  color: #444;
+  font-size: 14px;
+  font-weight: 600;
+}
+.buttonTabs .Mui-selected {
+  background-color: #00878c !important;
+  color: #fff;
+}
+
+.buttonTabs .MuiTabs-indicator {
+  display: none;
+}
+
+.BtnIcon {
+  margin-right: 8px;
+  font-size: 11px;
+}
+
+.alert {
+  color: rgb(255, 80, 80);
+  font-size: 36px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.approve {
+  color: rgb(0, 140, 140);
+  font-size: 36px;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+
+/*Layout*/
+.LayoutParent {
+  margin-top: 60px;
+  margin-left: 232px;
+  padding: 40px;
 }
