@@ -1,0 +1,39 @@
+.SidebarText {
+    color: rgb(68, 68, 68);
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+.AdminSidebar {
+    box-shadow: rgba(0, 0, 0, 0.1) -1px 0px 0px 0px inset;
+    width: 100%;
+    max-width: 232px;
+    position: fixed;
+    left: 0;
+    top: 61px;
+    width: 100%;
+    height: 100%;
+    background-color: #f8f9fa;
+}
+.NavLink {
+    font-size: 14px;
+}
+.NavLink .active {
+    color: red;
+}
+
+.active {
+    color: red;
+}
+
+.active .MuiSvgIcon-root {
+    color: red;
+}
+
+.logo {
+    img {
+        max-width: 150px;
+        width: 100%;
+        padding: 10px 20px;
+    }
+}

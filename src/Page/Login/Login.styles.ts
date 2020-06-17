@@ -5,7 +5,6 @@ const useStyles = makeStyles({
     boxShadow: "rgba(154, 161, 171, 0.12) 0px 0px 35px 0px",
     width: "780px",
     margin: "auto",
-    marginTop: "16px",
   },
   CardBody: {
     padding: "20px",

@@ -1,0 +1,52 @@
+.AdminHeader {
+    background-color: #fff;
+    border-bottom: 1px solid rgb(224, 224, 224);
+    display: flex;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    .logo {
+        padding: 11px;
+        box-shadow: rgba(0, 0, 0, 0.1) -1px 0px 0px 0px inset;
+        width: 100%;
+        max-width: 210px;
+        img {
+            max-width: 80px;
+            width: 100%;
+        }
+    }
+    .HeaderNav {
+        padding: 11px;
+        width: 100%;
+    }
+    li {
+        margin-right: 20px;
+    }
+    ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+        .Name {
+            font-size: 15px;
+            color: rgb(68, 68, 68);
+        }
+    }
+    .Breadcrumbs {
+        font-size: 14px;
+        color: rgb(153, 153, 153);
+        font-weight: 400;
+        margin-right: auto;
+    }
+    .profileImg {
+        width: 32px;
+        height: 32px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}

@@ -1,0 +1,52 @@
+.ManagerHeader {
+    background-color: rgb(38, 38, 38);
+    .Logo {
+        margin: 9px 0px 0 8px;
+        max-width: 90px;
+    }
+}
+.NavLinks {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    li {
+        color: rgb(153, 153, 153);
+        font-size: 15px;
+        font-weight: 600;
+        padding: 16px 20px;
+        i {
+            font-size: 13px;
+            margin-right: 10px;
+        }
+    }
+}
+
+.HeaderProfile {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+    img {
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    span {
+        color: rgb(153, 153, 153);
+        font-size: 15px;
+        margin-right: 8px;
+    }
+    .HeaderProfileDetail {
+        margin-right: 15px;
+        display: flex;
+        align-items: center;
+    }
+    .HeaderProfileIcon {
+        color: #fff;
+        span {
+            color: #fff;
+        }
+    }
+}

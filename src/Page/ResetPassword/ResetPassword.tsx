@@ -1,14 +1,15 @@
 import React from "react";
+import logo from "../../assets/images/gi-logo.svg";
 import {
   Container,
   Card,
   CardContent,
   Typography,
-  CardActions,
   Button,
   InputLabel,
   Input,
 } from "@material-ui/core";
+import { Link } from "react-router-dom";
 
 import useStyles from "./ResetPassword.styles";
 import styles from "./ResetPassword.module.scss";
@@ -18,6 +19,9 @@ const ResetPassword = () => {
     <section className={styles.FpSection}>
       <Container>
         <Card className={classes.root}>
+          <div className={styles.CardHeader}>
+            <img src={logo} className={styles.Logo} alt="logo" />
+          </div>
           <CardContent className={classes.content}>
             <Typography
               className={classes.title}
@@ -42,9 +46,11 @@ const ResetPassword = () => {
             >
               Submit
             </Button>
-            <div className={styles.more}>
-              <a href="">Learn More</a>
-            </div>
+            <Link to="/">
+              <div className={styles.more}>
+                <a href="#">Sign In</a>
+              </div>
+            </Link>
           </CardContent>
         </Card>
       </Container>
